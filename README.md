@@ -10,6 +10,7 @@
 
 <b>Installed puppet and puppetserver for node, master
 <br>We can add "server = master.mihura.com" to /etc/puppetlabs/puppet/puppet.conf on node for use next command without '--server'
+
 <br>Then use next commands:</b>
 * on node: puppet agent -t --server master.mihura.com --waitforcert 60 --test
 * on master: Puppet cert --sign node1.mihura.com
