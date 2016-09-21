@@ -14,3 +14,7 @@
 <br>Then use next commands:</b>
 * on node: puppet agent -t --server master.mihura.com --waitforcert 60 --test
 * on master: Puppet cert --sign node1.mihura.com
+
+<b>For starting:</b>
+On master made manifest and
+On node use 'puppet agent --test'
