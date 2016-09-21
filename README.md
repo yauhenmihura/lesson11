@@ -2,11 +2,11 @@
 
 <h3>Settings for node:</h3>
 /etc/sysconfig/network => hostname = node1.mihura.com
-/etc/hosts/            => 192.168.33.14 master.mihura.com master
+<br>/etc/hosts/            => 192.168.33.14 master.mihura.com master
 
 <h3>Settings for master:</h3>
 /etc/sysconfig/network => hostname = master.mihura.com
-/etc/hosts/            => 192.168.33.13 node1.mihura.com node1
+<br>/etc/hosts/            => 192.168.33.13 node1.mihura.com node1
 
 <b>Installed puppet and puppetserver for node, master
 <br>We can add "server = master.mihura.com to /etc/puppetlabs/puppet/puppet.conf on node for use next command without '--server'
