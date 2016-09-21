@@ -1,1 +1,1 @@
-nclude '::ntp'
+include '::ntp'
