@@ -17,4 +17,4 @@
 
 <b>For starting:</b>
 On master made manifest and
-On node use 'puppet agent --test'
+<br>On node used 'puppet agent --test'
